@@ -36,7 +36,7 @@ class CardGame:
     return card2
   
 
-
+# not indented to within codeblock of class
 def cards_total(self, cards):
   # total not assigned any value
   total
