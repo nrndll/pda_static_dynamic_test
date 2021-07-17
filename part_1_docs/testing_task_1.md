@@ -29,6 +29,7 @@ class CardGame:
   # should be def not dif
   # need comma between card1 and card2
   dif highest_card(self, card1 card2):
+  # codeblock not idented
   if card1.value > card2.value:
     # should be card1, there is no card
     return card
@@ -43,6 +44,7 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     # return needs to be out of the for loop, otherwise will end on first result.
+    # total is an int, needs to be converted to string to concatenate for return statement.
     return "You have a total of" + total
   
 ```
